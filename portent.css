@@ -1,0 +1,43 @@
+#button_next{
+	border-radius: 20px;
+}
+.class_block{
+	display: block;
+	color: black;
+}
+.class_none{
+	display: none;
+}
+* {
+	font-size: 15px;
+}
+body{
+	width: 100%;
+	font-family: Bahnschrift;
+	color: white;
+	align-items: center;
+	margin: 0;
+}
+#Title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#Title p{
+	background-color: #FA9D26;
+	font-size: 48px;
+	border-radius: 20px;
+	display: block;
+	height: 200px;
+	margin-bottom: 0px;
+	border-radius: 30px;
+}
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(Bahnschrift.tff) format("truetype");
+}
+
+.columbia{
+	color: black;
+	
+}

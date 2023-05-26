@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="adaptive.css">
+		<title> SDG 11: Sustainable Cities and Communities </title>
+	</head>
+	<body>
+		<div id="Title">
+			<p> Sustainable Development Goal 11: Sustainable Cities and Communities </p>
+			<img class="first" src="JP_Clipboard_Image.png">
+		</div>
+		<div id="Large">
+			
+			<div id="BigPages">
+				<p class="ok" onclick="menu()"> Subgoals </p>
+				
+				<div id="whymustimakethis">
+					<div id="page1" class="page"> <! I will deal with the actual link part of this whole shablorbery later>
+						<a class="Linko" href="Pages.html">
+						11.1 – "Adequate, safe, and affordable housing and basic services"
+						</a>
+					</div>
+				
+					<div id="page2" class="page">	
+						<a class="Linko" href="Pages2.html">
+						11.2 – "Safe, affordable, and accessible transport systems"
+						</a>
+					</div>
+				
+					<div id="page3" class="page">
+						<a class="Linko" href="Pages3.html">
+						11.3 – "Enhance inclusive and sustainable urbanization"
+						</a>
+					</div>
+				
+					<div id="page4" class="page">
+						<a class="Linko" href="Pages4.html">
+						11.4 – "Safeguard the world’s cultural and natural heritage"
+						</a>
+					</div>
+				
+					<div id="page5" class="page">
+						<a class="Linko" href="Pages5.html">
+						11.5 – "Reduce the number of deaths and economic losses caused by disasters"
+						</a>
+					</div>
+				
+					<div id="page6" class="page">
+						<a class="Linko" href="Pages6.html">
+						11.6 – "Reduce the adverse per capita environmental impact of cities"
+						</a>
+					</div>
+				
+					<div id="page7" class="page">
+						<a class="Linko" href="Pages7.html">
+						11.7 – "Provide universal access to accessible, green and public spaces"
+						</a>
+					</div>
+					<div id="QUIZ" class="page">
+						<a class="Linko" href="Quiz.html">
+						QUIZ!
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="BigInfo">
+				<div id="info">
+					<p> 
+						What is SDG 11?
+					</p>
+					
+					<p> 
+						Sustainable Development Goal 11, 
+						<span style="color: #FA9D26;">"Sustainable Cities and Communities" </span>,
+						concerns itself with urban living and 
+						how its <span style="color: #B30000;"> environmental impacts </span> can be mitigated,
+						along with how it can be <span style="color: #86B300;"> improved in general.</span> 
+					</p>
+				</div>
+				
+				<div id="info">
+					<p> Suggested ways of achieving these goals: </p>
+					<p> - 11.a – "Support positive economic, social and environmental links between urban and rural areas" </p>
+					<p> - 11.b – "Increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, etc." </p>
+				</div>
+			</div>
+		</div>
+	<script>
+		function menu(){ 
+			const elements = document.querySelectorAll('.page'); 
+			elements.forEach(function(element) { 
+				if (element.className == "page") { 
+				element.className += " pageappear";
+				} else { 
+				element.className = "page"; } }); }
+	</script>
+
+	</body>
+</html>
